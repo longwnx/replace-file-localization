@@ -1,4 +1,6 @@
 export default {
+  Application: {
+    //---START---//
     textReturnListApp: 'Do you want to return to App List?',
     appKey: 'App Key',
     appName: 'App name',
@@ -7,6 +9,7 @@ export default {
     notificationId: 'Notification ID',
     deviceName: 'Device name',
     osType: 'OS type',
+    allowRecivedPush: 'Allowed to receive push',
     sendMail: 'Send Mail',
     recentlyViewed: 'Recently Viewed',
     createDate: 'Create date',
@@ -21,8 +24,14 @@ export default {
     apnsToken: 'Token APNS',
     switchAppKey: 'Switch App Key',
     buildText: 'Build',
+    //---END---//
+  },
+  User: {
+    //---START---//
     signIn: 'Sign in',
     signUp: 'Sign up',
+    logOut: 'Log Out',
+    buildVersion: 'Build version',
     doYouWantToLogOut: 'Do you want to log out?',
     guestCheckout: 'Guest Checkout',
     dontHaveAccount: "Don't have an account?",
@@ -33,7 +42,7 @@ export default {
     userSorry: 'We are sorry to see you leave. If you delete your account',
     loseAccess: 'You will lose access to your purchase history',
     loseAllData: 'You will lose all data associated with the app',
-    ableAccess: "You won't be able to access your wishlist",
+    ableAccess: "You won't be able to access your wishlist Delete Account",
     followingInformation:
       'Fill in the following information to delete your accounts',
     takeSomeTime:
@@ -46,10 +55,18 @@ export default {
       'You will be informed as soon as the process is completed. If you change your mind, you can always come back and open a new account with us',
     contentForgotPassword:
       "Please let us know your email address you used to login and we'll send you an email with instructions",
-      noCatalog: 'No catalog',
+    //---END---//
+  },
+  Home: {},
+  Catalog: {
+    //---START---//
+    noCatalog: 'No catalog',
     shopAll: 'Shop all',
-    all: 'All',
-    textOutOfStock: 'Sorry, this item is out of stock',
+    //---END---//
+  },
+  Product: {
+    //---START---//
+    textOutOfStock: 'Sorry',
     outOfStock: 'Out of Stock',
     addToCart: 'Add to cart',
     textUpdated: 'Updated',
@@ -66,20 +83,11 @@ export default {
       "Looks like you're not logged in, sign in to save products to your favorites",
     freeShipping: 'Free shipping',
     inStock: 'In stock {{inventory}}',
-    buyNow: 'Buy Now',
-    selectVariant: 'Select variant',
-    quantity: 'Quantity',
-    weight: 'Weight',
-    width: 'Width',
-    height: 'Height',
-    depth: 'Depth',
-    upc: 'UPC',
-    orderQuantityMinimum: 'Minimum Purchase Quantity',
-    orderQuantityMaximum: 'Maximum Purchase Quantity',
-    manufacturePartNumber: 'Manufacturer Part Number(MPN)',
-    globalTradeItemNumber: 'Global Trade Item Number (GTIN)',
-    binPickingNumber: 'Bin Picking Number (BPN)',
-     placeHolder: 'Search Products',
+    //---END---//
+  },
+  Search: {
+    //---START---//
+    placeHolder: 'Search Products',
     noRecentSearch: 'No Recent Search',
     searchHistory: 'Search History',
     noItemsFound: 'No items found',
@@ -88,6 +96,10 @@ export default {
     suggestion: 'Suggestion',
     seeAllResults: 'See all results',
     search: 'Search',
+    //---END---//
+  },
+  Cart: {
+    //---START---//
     subTotal: 'Subtotal',
     shipping: 'Shipping',
     tax: 'Tax',
@@ -104,7 +116,15 @@ export default {
     selectVoucher: 'Coupon Code',
     total: 'Total',
     apply: 'Apply',
+    //---END---//
+  },
+  Wishlist: {
+    //---START---//
     itemAddedToWatchList: 'Item is added into your wishlist',
+    //---END---//
+  },
+  Review: {
+    //---START---//
     textWriteReview: 'Write a review',
     textBeFirstReview: 'Be the first to review this product',
     writeReview: 'Write Review',
@@ -121,6 +141,10 @@ export default {
     reviewSubmitted: 'Your review is submitted successfully.',
     warningReviewBack: 'Are you sure? All unsaved changes will be lost',
     warningRateItem: 'How would you rate this item?',
+    //---END---//
+  },
+  Order: {
+    //---START---//
     orderDate: 'Order Date',
     orderNum: 'Order #',
     orderID: 'Order ID: #{{id}}',
@@ -137,23 +161,39 @@ export default {
       'Some products are invalid so they cannot be added to the shopping cart.',
     errorMessage:
       'All products in this order are invalid so they cannot be added to the shopping cart.',
-      content: 'Thanks for shopping with us.',
+    //---END---//
+  },
+  ThankYouPage: {
+    //---START---//
+    content: 'Thanks for shopping with us.',
     infoContent:
       'You will receive an order confirmation email with details of your order and a link to track its progress',
     viewOrder: 'View Order Details',
     backToHome: 'Back to Home',
-      noAddress: 'No Address',
+    //---END---//
+  },
+  Address: {
+    //---START---//
+    noAddress: 'No Address',
     aboveModalConfirm: 'Any unsaved changes will be lost',
     belowModalConfirm: 'Do you want to proceed?',
     saveChange: 'Save Changes',
     selectCountry: 'Select Country',
-     Show_All: 'Show All',
+    //---END---//
+  },
+  Filter: {
+    //---START---//
+    Show_All: 'Show All',
     Pending: 'Pending',
     Cancelled: 'Cancelled',
     Shipped: 'Shipped',
     filterBy: 'Filter by',
     clearAll: 'Clear All',
-     Newest_First: 'Newest First',
+    //---END---//
+  },
+  Sort: {
+    //---START---//
+    Newest_First: 'Newest First',
     Oldest_First: 'Oldest First',
     Lowest_Price_First: 'Lowest Price First',
     Highest_Price_First: 'Highest Price First',
@@ -166,10 +206,14 @@ export default {
     sortBy: 'SORT BY',
     reset: 'Reset',
     sortToolBar: 'Sort',
+    //---END---//
+  },
+  Modal: {
+    //---START---//
     titleModalRate: 'Rate {{appName}}',
     remindMeLater: 'Remind me later',
     rateNow: 'Rate now',
-    noThanks: 'No, thanks',
+    noThanks: 'No',
     contentModalRate:
       'Would you mind taking a moment to rate {{appName}}? Thanks for your time and support!',
     titleSubjectMail: 'Device info for troubleshooting problem',
@@ -179,7 +223,6 @@ export default {
     warningRemoveShoppingCart:
       'Do you want to remove this item from your shopping bag?',
     warningRemoveProduct: 'Do you want to delete the product?',
-    //  TODO: Alert Text
     textNo: 'No',
     textYes: 'Yes',
     textOK: 'OK',
@@ -189,6 +232,10 @@ export default {
     textDone: 'Done',
     textDelete: 'Delete',
     textCancel: 'Cancel',
+    //---END---//
+  },
+  Forms: {
+    //---START---//
     inputText: 'Input text',
     requireFields: 'Please fill in all required fields',
     requireField: 'Required field',
@@ -200,9 +247,8 @@ export default {
     invalidConfirmPassword: 'Does not match password',
     emailFormHint: 'Please enter a valid email address',
     invalidConfirmEmail: 'Please enter the same value again',
-    invalidPassword: 'Invalid Password',
-    invalidPasswordCharacters:
-      'Passwords must be at least 7 characters and contain: lower case letters, upper case letters, at least 1 number, at least 1 special character',
+    invalidPassword:
+      'Invalid Password',
     send: 'Send',
     firstName: 'First Name',
     lastName: 'Last Name',
@@ -215,7 +261,10 @@ export default {
     minCharacters: 'Min 8 characters',
     yourPassword: 'Your password',
     select: 'Select',
-    textAddAddress: 'Add Address',
+    //---END---//
+  },
+  Header: {
+    //---START---//
     headerRegister: 'Create new account',
     headerMyOrder: 'My Orders',
     headerOrderDetails: 'Order Details',
@@ -229,7 +278,15 @@ export default {
     headerCountry: 'Select your country',
     headerLanguage: 'Select your language',
     headerSignUp: 'Create Account',
+    //---END---//
+  },
+  Notification: {
+    //---START---//
     noNotification: 'No Notifications',
+    //---END---//
+  },
+  ErrMsg: {
+    //---START---//
     titleErr: 'Error',
     noConnect: 'No internet connection',
     plsTryAgain: 'Please try again.',
@@ -241,4 +298,6 @@ export default {
       'The maximum quantity allowed for purchase is {{maxOrderQuantity}}',
     errRegisterAppKey: 'Register app key {{appKey}} failed',
     invalidOrderId: 'Invalid orderId provided',
+    //---END---//
+  },
 };
