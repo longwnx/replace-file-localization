@@ -35,7 +35,7 @@ def update_el_values(data, js_filename):
     with open(js_filename, 'w') as js_file:
         js_file.write(js_content)
 
-excel_filename = 'output.xlsx'
+excel_filename = 'output2.xlsx'
 js_filename = 'el.js'
 
 data_from_excel = read_excel_values(excel_filename)

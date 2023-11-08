@@ -29,7 +29,7 @@ def write_to_excel(data, excel_filename):
 
 
 js_filename = 'en.js'
-excel_filename = 'output.xlsx'
+excel_filename = 'output2.xlsx'
 
 key_value_pairs = extract_js_values(js_filename)
 write_to_excel(key_value_pairs, excel_filename)
